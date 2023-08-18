@@ -1,0 +1,9 @@
+.text-box {
+  &--large {
+    max-width: 62rem;
+  }
+
+  &--small {
+    max-width: 40rem;
+  }
+}

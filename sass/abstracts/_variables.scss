@@ -1,0 +1,17 @@
+/// Colors
+:root {
+  --color-primary-cyan: hsl(171, 66%, 44%);
+  --color-primary-blue: hsl(233, 100%, 69%);
+
+  --color-dark-grayish-blue: hsl(210, 10%, 33%);
+  --color-grayish-blue: hsl(201, 11%, 66%);
+
+  --color-white: #fff;
+}
+
+/// Font Sizes
+$default-font-size: 1.8rem; // 18px
+$h1-font-size: 3.8rem; // 30px
+
+/// Margins
+$margin-xs: 2rem; // 20px

@@ -1,0 +1,25 @@
+.btn {
+  &:link,
+  &:visited {
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    color: var(--color-white);
+    text-decoration: none;
+    border-radius: 20rem;
+    margin: 0 0.5rem;
+  }
+
+  &--cyan {
+    &:link,
+    &:visited {
+      background-color: var(--color-primary-cyan);
+    }
+  }
+
+  &--blue {
+    &:link,
+    &:visited {
+      background-color: var(--color-primary-blue);
+    }
+  }
+}
