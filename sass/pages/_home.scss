@@ -1,5 +1,40 @@
+section {
+  margin-bottom: $margin-xxl;
+}
+
 .section-1 {
-  font-size: $default-font-size;
+  display: flex;
+  justify-content: center;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 60%;
+  }
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-5 {
+  display: flex;
+  justify-content: center;
+}
+
+.section-6 {
   display: flex;
   justify-content: center;
 }

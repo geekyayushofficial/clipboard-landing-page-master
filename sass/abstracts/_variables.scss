@@ -1,7 +1,10 @@
 /// Colors
 :root {
   --color-primary-cyan: hsl(171, 66%, 44%);
+  --color-primary-cyan-light: rgba(38, 186, 164, 0.8);
+
   --color-primary-blue: hsl(233, 100%, 69%);
+  --color-primary-blue-light: rgba(97, 115, 255, 0.8);
 
   --color-dark-grayish-blue: hsl(210, 10%, 33%);
   --color-grayish-blue: hsl(201, 11%, 66%);
@@ -12,6 +15,9 @@
 /// Font Sizes
 $default-font-size: 1.8rem; // 18px
 $h1-font-size: 3.8rem; // 30px
+$h2-font-size: 2.75rem; // 27px
+$h3-font-size: 2.2rem; // 22px
 
 /// Margins
 $margin-xs: 2rem; // 20px
+$margin-xxl: 10rem; // 60px

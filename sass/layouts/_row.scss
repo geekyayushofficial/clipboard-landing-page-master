@@ -1,0 +1,12 @@
+.row {
+  max-width: 120rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+  & > * {
+    flex: 1 1 20%;
+  }
+}
