@@ -1,7 +1,12 @@
 .header {
-  background-image: url(../images/bg-header-desktop.png);
+  background-image: linear-gradient(
+      to bottom,
+      transparent,
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(../images/bg-header-desktop.png);
   background-size: cover;
-  height: 20vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -11,6 +16,6 @@
   }
 
   &__logo {
-    height: 7rem;
+    height: 10rem;
   }
 }
