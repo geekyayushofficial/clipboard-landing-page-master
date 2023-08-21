@@ -20,4 +20,15 @@ $h3-font-size: 2.2rem; // 22px
 
 /// Margins
 $margin-xs: 2rem; // 20px
-$margin-xxl: 10rem; // 60px
+$margin-s: 3.5rem; // 35px
+$margin-m: 5rem; // 50px
+$margin-l: 7rem; // 70px
+$margin-xxl: 10rem; // 100px
+
+@media only screen and (max-width: 600px) {
+  $margin-xs: 1.2rem; // 12px
+  $margin-s: 2.5rem; // 25px
+  $margin-m: 3.8rem; // 38px
+  $margin-l: 5.2rem; // 52px
+  $margin-xxl: 6rem; // 60px
+}

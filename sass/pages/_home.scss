@@ -1,5 +1,10 @@
 section {
   margin-bottom: $margin-xxl;
+
+  @media only screen and (max-width: 600px) {
+    padding: 0 2rem;
+    margin-bottom: $margin-l;
+  }
 }
 
 .section-1 {
@@ -32,6 +37,16 @@ section {
 .section-5 {
   display: flex;
   justify-content: center;
+
+  flex-wrap: wrap;
+
+  .icon-container {
+    padding: 1rem;
+    &:not(:last-child) {
+      margin-right: 5rem;
+      margin-bottom: 2rem;
+    }
+  }
 }
 
 .section-6 {

@@ -7,12 +7,36 @@
   font-size: $default-font-size;
   align-content: center;
 
+  &__logo-box {
+    text-align: center;
+    margin-right: 10rem;
+
+    @media only screen and (max-width: 32.5em) {
+      height: auto;
+      flex: 0 0 100%;
+    }
+
+    @media only screen and (max-width: 42.375em) {
+      margin-right: 0;
+    }
+  }
+
   &__logo {
     height: 5rem;
   }
 
   &__navigation {
     margin-right: auto;
+    @media only screen and (max-width: 32.5em) {
+      flex: 0 0 100%;
+    }
+
+    @media only screen and (max-width: 32.5em) {
+      flex: 0 0 100%;
+      text-align: center;
+      height: auto;
+      margin-bottom: 2rem;
+    }
   }
 
   &__ul {
@@ -21,11 +45,19 @@
     flex-direction: column;
     flex-wrap: wrap;
     height: 10rem;
+
+    @media only screen and (max-width: 32.5em) {
+      text-align: center;
+      height: auto;
+    }
   }
 
   &__items {
     text-align: start;
     padding: 0.5rem 3rem;
+    @media only screen and (max-width: 32.5em) {
+      text-align: center;
+    }
   }
 
   &__links {
@@ -35,6 +67,11 @@
 
   &__social {
     text-align: right;
+
+    @media only screen and (max-width: 32.5em) {
+      flex: 0 0 100%;
+      text-align: center;
+    }
   }
 
   &__social-links {

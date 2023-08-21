@@ -14,5 +14,10 @@
   &--small {
     max-width: 36rem;
     font-size: 1.5rem;
+    margin-bottom: $margin-l;
+
+    @media only screen and (max-width: 600px) {
+      margin-bottom: $margin-m;
+    }
   }
 }
